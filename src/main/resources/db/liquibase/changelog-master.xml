@@ -7,5 +7,6 @@
     <include file="./changes/001-create-schema.sql" relativeToChangelogFile="true" />
     <include file="./changes/002-initial-user-and-security-scripts.sql" relativeToChangelogFile="true" />
     <include file="./changes/003-seed-data.sql" relativeToChangelogFile="true" />
-
+    <include file="./changes/004-add-total-points-field.sql" relativeToChangelogFile="true" />
+    <include file="./changes/005-update-total-points-field.sql" relativeToChangelogFile="true" />
 </databaseChangeLog>

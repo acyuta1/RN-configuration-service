@@ -14,6 +14,7 @@ public class ConfigController {
 
     @GetMapping("/{id}")
     public UserDto fetchById(@PathVariable("id") Long id) {
+
         return userService.fetchUserById(id);
     }
 
@@ -21,5 +22,4 @@ public class ConfigController {
     public UserDto add(@RequestBody UserDto userDto) {
         return userService.addUser(userDto);
     }
-
 }

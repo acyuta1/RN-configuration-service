@@ -43,4 +43,5 @@ public class Users {
 
     private String token;
 
+    private Long totalPoints = 0L;
 }
