@@ -17,8 +17,8 @@
 		<java.version>11</java.version>
 		<spring-cloud.version>2020.0.3</spring-cloud.version>
 		<org.projectlombok.version>1.18.12</org.projectlombok.version>
-		<org.mapstruct.version>1.5.0.Beta1</org.mapstruct.version>
-		<rf.shared.version>0.0.4</rf.shared.version>
+		<org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
+		<rf.shared.version>0.0.6-SNAPSHOT</rf.shared.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -48,7 +48,10 @@
 			<artifactId>mapstruct-processor</artifactId>
 			<version>${org.mapstruct.version}</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-amqp</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
 			<artifactId>mssql-jdbc</artifactId>

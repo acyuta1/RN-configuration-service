@@ -63,6 +63,13 @@
       "auto_delete": false,
       "arguments": {}
     },
+    {
+      "name": "occurrence-finished-queue",
+      "vhost": "/",
+      "durable": true,
+      "auto_delete": false,
+      "arguments": {}
+    },
 
     {
       "name": "round-scoring-finished",
