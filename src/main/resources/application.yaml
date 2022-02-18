@@ -39,6 +39,11 @@ spring:
           writetimeout: 5000
           starttls:
             enable: true
+  rabbitmq:
+    username: guest
+    password: test12
+    host: localhost
+    port: 5670
 server:
   error:
     include-message: always
